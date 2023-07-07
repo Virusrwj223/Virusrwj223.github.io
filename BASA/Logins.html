@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Logins.css" />
+    <!--Need to include the actual image here for icon on tab-->
+    <link rel="shortcut icon" href="BASA_Icon.png" />
+    <!--This loads the font for the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BASA</title>
+  </head>
+
+  <body>
+    <script src="./Logins.js" type="module"></script>
+
+    <nav class="navigation">
+      <a href="#" class="logo"
+        ><img src="BASA_Icon.png" alt="Picture of a house" width="35px" />
+        BASA</a
+      >
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+      </ul>
+      <div class="right-elements">
+        <a href="Logins.html" class="user">Login</a>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button id="loginPage" type="button" class="toggle-btn">Login</button>
+          <button id="registerPage" type="button" class="toggle-btn">
+            Register
+          </button>
+        </div>
+
+        <form id="login" class="input-group">
+          <input
+            id="walletAddress"
+            type="text"
+            class="input-field"
+            placeholder="Wallet Address"
+          />
+          <input type="checkbox" class="check-box" /><span>Remember Me</span>
+          <button id="loginButton" type="button" class="submit-btn">
+            Login
+          </button>
+        </form>
+
+        <form id="register" class="input-group">
+          <input
+            id="registerWalletAddress"
+            type="text"
+            class="input-field"
+            placeholder="Wallet Address"
+          />
+          <input
+            id="firstName"
+            type="text"
+            class="input-field"
+            placeholder="First Name"
+          />
+
+          <p class="metamask-info">
+            What is a wallet address?
+            <a href="https://metamask.io/" target="_blank"
+              ><strong>Learn More</strong></a
+            >
+          </p>
+          <input type="checkbox" class="check-box" /><span
+            >I agree to the terms and consitions</span
+          >
+          <div class="metamask-info"></div>
+
+          <button id="registerButton" type="button" class="submit-btn">
+            Register
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
