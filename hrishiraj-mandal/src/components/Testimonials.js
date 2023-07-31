@@ -4,15 +4,17 @@ import { fadeIn } from "../variants";
 import sk from "../assets/SK.png";
 import vjc from "../assets/Vjc.png";
 import vjct from "../personal/VJCT.pdf";
+import skt from "../personal/SK-general.pdf";
 
 const testimonials = [
   {
-    testimonial: "Testimonial to Be Received",
+    testimonial:
+      "Hrishiraj showcased a rare combination of technical expertise and an unyielding willingness to learn.",
     name: "Surya Ravikumar",
     designation: "VP, Data & Strategy",
     company: "Smartkarma",
     image: sk,
-    link: "#",
+    link: skt,
   },
   {
     testimonial:
