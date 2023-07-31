@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hrishiraj-mandal/static/css/main.188edba7.css",
+    "main.js": "/hrishiraj-mandal/static/js/main.f6d37c2b.js",
+    "static/media/Resume.pdf": "/hrishiraj-mandal/static/media/Resume.ff0851f48534212dc962.pdf",
+    "static/media/VJCT.pdf": "/hrishiraj-mandal/static/media/VJCT.0cb774d29570e03cdb54.pdf",
+    "static/media/coding-man.png": "/hrishiraj-mandal/static/media/coding-man.a2f67136749f9e42652f.png",
+    "static/media/site-bg.jpg": "/hrishiraj-mandal/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/Army.png": "/hrishiraj-mandal/static/media/Army.7f8dd4c84ab155237552.png",
+    "static/media/SK-general.pdf": "/hrishiraj-mandal/static/media/SK-general.c0ea8c846698247035cd.pdf",
+    "static/media/header-img.svg": "/hrishiraj-mandal/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/HM_logo.png": "/hrishiraj-mandal/static/media/HM_logo.850c8d4639a783bdb9f1.png",
+    "index.html": "/hrishiraj-mandal/index.html",
+    "main.188edba7.css.map": "/hrishiraj-mandal/static/css/main.188edba7.css.map",
+    "main.f6d37c2b.js.map": "/hrishiraj-mandal/static/js/main.f6d37c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.188edba7.css",
+    "static/js/main.f6d37c2b.js"
+  ]
+}
