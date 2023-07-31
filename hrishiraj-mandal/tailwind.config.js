@@ -26,6 +26,7 @@ module.exports = {
         site: "url('./assets/site-bg.jpg')",
         about: "url('./assets/about.png')",
         services: "url('./assets/services.png')",
+        coding: "url('./assets/coding-man.png')",
       },
     },
   },
