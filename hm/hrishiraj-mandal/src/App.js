@@ -16,7 +16,7 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <div className="h-[230px] lg:h-[0px]"></div>
+      <div className="h-[230px] sm:h-[230px] md:h-[230px] lg:h-[0px] xl:h-[0px]"></div>
       <Services />
       <Work />
       <div className="h-[200px]"></div>
