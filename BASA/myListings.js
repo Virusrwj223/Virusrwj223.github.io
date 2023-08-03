@@ -130,7 +130,7 @@ async function createListing() {
       }
     }
   } else {
-    window.location.href = "https://www.google.com.sg/";
+    //window.location.href = "https://www.google.com.sg/";
   }
 }
 

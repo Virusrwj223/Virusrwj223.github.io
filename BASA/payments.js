@@ -48,7 +48,7 @@ async function getBalance() {
     );
     console.log(ethers.utils.formatEther(balance[6]));
   } else {
-    window.location.href = "https://www.google.com.sg/";
+    //window.location.href = "https://www.google.com.sg/";
     //document.getElementById("amountBalanceView").innerHTML = 0;
   }
 }
