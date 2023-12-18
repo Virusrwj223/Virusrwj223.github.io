@@ -8,6 +8,8 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiReact,
+  SiFirebase,
 } from "react-icons/si";
 
 const services = [
@@ -22,6 +24,16 @@ const services = [
       <SiHtml5 />,
       <SiCss3 />,
       <SiJavascript />,
+    ],
+  },
+  {
+    name: "Hey Hitch",
+    description:
+      "Native app to connect people travelling to similar destinations",
+    link: "https://appdistribution.firebase.dev/i/f78ff6c81cb2647a",
+    techStack: [
+      <SiReact />,
+      <SiFirebase />,
     ],
   },
 ];
