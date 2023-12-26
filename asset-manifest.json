@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hm/hrishiraj-mandal/static/css/main.89e9dce6.css",
-    "main.js": "/hm/hrishiraj-mandal/static/js/main.8f42a893.js",
+    "main.js": "/hm/hrishiraj-mandal/static/js/main.64f65c59.js",
     "static/media/VJCT.pdf": "/hm/hrishiraj-mandal/static/media/VJCT.0cb774d29570e03cdb54.pdf",
     "static/media/coding-man.png": "/hm/hrishiraj-mandal/static/media/coding-man.a2f67136749f9e42652f.png",
     "static/media/site-bg.jpg": "/hm/hrishiraj-mandal/static/media/site-bg.54724d703024833ef9c6.jpg",
@@ -12,10 +12,10 @@
     "static/media/HM_logo.png": "/hm/hrishiraj-mandal/static/media/HM_logo.850c8d4639a783bdb9f1.png",
     "index.html": "/hm/hrishiraj-mandal/index.html",
     "main.89e9dce6.css.map": "/hm/hrishiraj-mandal/static/css/main.89e9dce6.css.map",
-    "main.8f42a893.js.map": "/hm/hrishiraj-mandal/static/js/main.8f42a893.js.map"
+    "main.64f65c59.js.map": "/hm/hrishiraj-mandal/static/js/main.64f65c59.js.map"
   },
   "entrypoints": [
     "static/css/main.89e9dce6.css",
-    "static/js/main.8f42a893.js"
+    "static/js/main.64f65c59.js"
   ]
 }
