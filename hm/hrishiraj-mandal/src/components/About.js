@@ -29,9 +29,7 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">About Me</h2>
-            <h3 className="h3 mb-4">
-              A computing student with a variety of interests
-            </h3>
+            <h3 className="h3 mb-4">CONQUERING THE WORLD A STEP EVERYDAY</h3>
             <p className="mb-6">
               Where was I? Right, I love learning <br />
               <br />
