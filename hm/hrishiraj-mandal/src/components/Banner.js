@@ -37,9 +37,9 @@ const Banner = () => {
                 sequence={[
                   "Developer",
                   2000,
-                  "Finance Enthusiast",
+                  "Avid Explorer",
                   2000,
-                  "Computer Science Student",
+                  "Computing Student",
                   2000,
                 ]}
                 speed={50}
@@ -55,7 +55,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[25px] lg:text-[26px] font-secondary font-semibold uppercase leading-[1]"
             >
-              "My interests . . . I love to study!"
+              "My interests . . . I love to learn!"
             </motion.h3>
             <motion.p
               variants={fadeIn("up", 0.5)}

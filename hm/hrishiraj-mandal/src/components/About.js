@@ -30,10 +30,10 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About Me</h2>
             <h3 className="h3 mb-4">
-              A computing student with a strong interest in fiancne
+              A computing student with a variety of interests
             </h3>
             <p className="mb-6">
-              Where was I? Right, I love studying <br />
+              Where was I? Right, I love learning <br />
               <br />
               Back in high school, I was in the prestigious Victoria-Cedar
               Integrated Program which allowed me to bypass the GCE O Lvels and
@@ -47,12 +47,15 @@ const About = () => {
               constantly surounded by highly motivated peers and professors!
               <br />
               <br />
-              Oh yes! An interesting fact about myself is that if I had not
-              studied computing, I would have probably studied fiance (yet it
-              seems that one interest trumped the other). As such, many of my
-              personal projects revolves around understanding fianncial markets
-              better or simulating efficiency in such markets. Scroll down to
-              check them out!
+              Oh yes! My learning interests goes beyond just textbook material.
+              I have this sort of Ok-Raj(OKR) where I evaluate how I had done
+              over the past 3 months and plan my goals for the next 3 months.
+              This model had allowed me to master many skills over the years
+              such as achieving First Dan (Black Belt Grade 1) for Taekwondo as
+              well as ABRSM Grade 6 Piano. Over long breaks, I also go on
+              Kayaking expeditions with friends and on weekends, play Tennis
+              with some of my neighbors. As they say, routine is the enemy! So,
+              hit me up and we can have a quick game or sit for a coffee chat!
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
@@ -66,7 +69,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={2} duration={1} /> : null}
+                  {inView ? <CountUp start={0} end={3} duration={1} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Major Personal <br />

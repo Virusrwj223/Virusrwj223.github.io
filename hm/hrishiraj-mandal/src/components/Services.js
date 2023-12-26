@@ -8,6 +8,10 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiReact,
+  SiFirebase,
+  SiRubyonrails,
+  SiMysql,
 } from "react-icons/si";
 
 const services = [
@@ -23,6 +27,20 @@ const services = [
       <SiCss3 />,
       <SiJavascript />,
     ],
+  },
+  {
+    name: "Hey Hitch",
+    description:
+      "Native app to connect people travelling to similar destinations",
+    link: "https://appdistribution.firebase.dev/i/f78ff6c81cb2647a",
+    techStack: [<SiReact />, <SiFirebase />],
+  },
+  {
+    name: "ComUni",
+    description:
+      "Full-stack web forum for discussion of textbook content. COMING SOON",
+    link: "",
+    techStack: [<SiRubyonrails />, <SiMysql />, <SiReact />],
   },
 ];
 
