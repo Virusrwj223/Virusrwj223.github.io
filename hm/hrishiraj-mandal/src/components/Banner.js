@@ -32,14 +32,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[37px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-white mr-4">My interests are</span>
               <TypeAnimation
                 sequence={[
-                  "Developer",
+                  "Cloud Computing",
                   2000,
-                  "Avid Explorer",
+                  "Parallel Systems",
                   2000,
-                  "Computing Student",
+                  "Cybersecurity",
                   2000,
                 ]}
                 speed={50}
@@ -55,7 +55,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[25px] lg:text-[26px] font-secondary font-semibold uppercase leading-[1]"
             >
-              "My interests . . . I love to learn!"
+              "That is . . . I love to learn!"
             </motion.h3>
             <motion.p
               variants={fadeIn("up", 0.5)}

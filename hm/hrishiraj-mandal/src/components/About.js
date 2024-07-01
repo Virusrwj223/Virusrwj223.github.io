@@ -29,20 +29,22 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">About Me</h2>
-            <h3 className="h3 mb-4">CONQUERING THE WORLD A STEP EVERYDAY</h3>
+            <h3 className="h3 mb-4">VIRTUALISING THE WORLD A STEP EVERYDAY</h3>
             <p className="mb-6">
-              Where was I? Right, I love learning <br />
-              <br />
-              Back in high school, I was in the prestigious Victoria-Cedar
-              Integrated Program which allowed me to bypass the GCE O Lvels and
-              sit for the GCE A Levels directly for which I had attained full
-              distinction 90/90RP. I had taken part in the 2019 Singapore
-              Physics Olympiad and studied H3 Chemistry for my GCE A-Levels, a
-              grade higher than mostof my peers.
-              <br />
+              Where was I? Right, computing <br />
               <br />
               Currently, I am studying Computer Science at NUS where I am
-              constantly surounded by highly motivated peers and professors!
+              constantly surounded by highly motivated peers and professors! My interests 
+              are in abstracts topics namely cloud systems, parallel processes and cybersecurity, 
+              the underlying processes needed in this new age-AI.
+              <br />
+              <br />
+              My insterests in such abstract matter began back in high school when 
+              I was in the prestigious Victoria-Cedar Integrated Program that allowed 
+              me to sit for the GCE A Levels directly for which I had attained full
+              distinction 90/90RP. I had taken part in the 2019 Singapore
+              Physics Olympiad and studied H3 Chemistry for my GCE A-Levels, a
+              grade higher than most of my peers.
               <br />
               <br />
               Oh yes! My learning interests goes beyond just textbook material.
@@ -50,10 +52,7 @@ const About = () => {
               over the past 3 months and plan my goals for the next 3 months.
               This model had allowed me to master many skills over the years
               such as achieving First Dan (Black Belt Grade 1) for Taekwondo as
-              well as ABRSM Grade 6 Piano. Over long breaks, I also go on
-              Kayaking expeditions with friends and on weekends, play Tennis
-              with some of my neighbors. As they say, routine is the enemy! So,
-              hit me up and we can have a quick game or sit for a coffee chat!
+              well as ABRSM Grade 6 Piano. As they say, routine is the enemy! 
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
@@ -74,14 +73,23 @@ const About = () => {
                   Projects
                 </div>
               </div>
+              <div>
+                <div className="text-[40px] font-tertiary text-gradient">
+                  {inView ? <CountUp start={0} end={1} duration={1} /> : null}
+                </div>
+                <div className="font-primary text-sm tracking-[2px]">
+                  Hackathon <br />
+                  Winner
+                </div>
+              </div>
             </div>
-            <div className="flex gap-x-8 items-center">
+            {/* <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">
                 <Link to="contact" smooth={true}>
                   Contact Me
                 </Link>
               </button>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

@@ -8,13 +8,28 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiTypescript,
+  SiTurborepo,
   SiReact,
-  SiFirebase,
-  SiRubyonrails,
-  SiMysql,
+  SiExpo,
+  SiNextdotjs,
+  SiTrpc,
+  SiMongodb,
+  SiMongoose,
+  SiPlaywright,
+  SiMicrosoftazure,
+  SiPytorch,
+  SiFastapi
 } from "react-icons/si";
 
 const services = [
+  {
+    name: "Oma",
+    description:
+      "Deep Learning native app to find the unique restaurant that matches your taste",
+    link: "https://docs.google.com/document/d/11SEPNa5Z1mEtLLBuoHdEIO-Y0rPrTtn0plZOKLHMxr8/edit?usp=sharing",
+    techStack: [<SiTypescript/>, <SiTurborepo/>,<SiReact/>,<SiExpo/>,<SiNextdotjs/>,<SiTrpc/>,<SiMongodb/>,<SiMongoose/>,<SiPlaywright/>,<SiMicrosoftazure/>,<SiPytorch/>,<SiFastapi/>],
+  },
   {
     name: "BASA",
     description:
@@ -27,21 +42,7 @@ const services = [
       <SiCss3 />,
       <SiJavascript />,
     ],
-  },
-  {
-    name: "Hey Hitch",
-    description:
-      "Native app to connect people travelling to similar destinations",
-    link: "https://appdistribution.firebase.dev/i/f78ff6c81cb2647a",
-    techStack: [<SiReact />, <SiFirebase />],
-  },
-  {
-    name: "ComUni",
-    description:
-      "Full-stack web forum for discussion of textbook content. COMING SOON",
-    link: "",
-    techStack: [<SiRubyonrails />, <SiMysql />, <SiReact />],
-  },
+  }
 ];
 
 const Services = () => {
